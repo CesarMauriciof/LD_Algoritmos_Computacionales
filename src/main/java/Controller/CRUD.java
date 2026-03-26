@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Controller;
 
 import Model.nodo;
 
-/**
- *
- * @author macbookpro
- */
+
 public class CRUD {
 
     nodo cab;
@@ -27,6 +21,11 @@ public class CRUD {
         }
         this.cab = p;
         return p;
+    }
+    
+    //prueba de commit para git-hub
+    public int caso1(){
+        return 1;
     }
 
     public boolean insert(int id) {
